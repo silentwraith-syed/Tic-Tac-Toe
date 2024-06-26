@@ -1,0 +1,57 @@
+.outer-box{
+    height: 500px;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.outer-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(9, 37, 56);
+    height: 100vh;
+    width: 100%;
+}
+
+.boxes{
+    height: 80px;
+    width: 80px;
+    border-radius: 10px;
+    background: rgb(255, 255, 255);
+    margin: 5px 5px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.row1, .row2, .row3{
+    display: flex;
+    flex-direction: row;
+}
+
+.reset-button {
+    margin-top: 20px;
+    height: 30px;
+    width: 80px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: height 0.3s ease, width 0.3s ease; /* Adding transition */
+    font-family: 'Ubuntu';
+    font-size: medium;
+}
+
+.reset-button:hover {
+    height: 35px;
+    width: 85px;
+}
+
+.result{
+    color: white;
+    font-family: 'Ubuntu';
+    
+}
